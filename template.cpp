@@ -1,5 +1,5 @@
 #define \
-PROG : test
+PROG : $NAME$
 #define \
 LANG : C++11
 #define \
