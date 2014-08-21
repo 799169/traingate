@@ -1,5 +1,5 @@
 #define \
-PROG : $NAME$
+PROG : test
 #define \
 LANG : C++11
 #define \
@@ -21,6 +21,7 @@ int main() {
 		freopen(INFILE.c_str(), "r", stdin);
 		freopen(OUTFILE.c_str(), "w", stdout);
 	}
-
+	int a, b; cin >> a >> b;
+	cout << a + b << '\n';
 	return 0;
 }
